@@ -8,14 +8,23 @@ html,body {
 }
 
 .header {position: fixed; 
-    top: 0; left: 0; right: 0; height: 60px; 
+    top: 0; left: 0; right: 0; height: 40px; 
     background-color: rgba(255, 255, 255, 0.8); 
     backdrop-filter: blur(10px); z-index: 1000;
-    padding-top: 12px;
-   padding-bottom: 12px;
     display: flex;
-    text-align: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
 }
 
+.header * {
+    text-decoration: none;
+}
+
+.middleheader {
+display: flex;
+justify-content: space-between;
+width: 200px;
+}
