@@ -31,7 +31,7 @@ html, body {
 }
 
 header.smaller {
-    transform: translateY(-50px);
+    transform: translateY(-80px);
 }
 
 .header * {
@@ -88,4 +88,34 @@ header.smaller {
 
 .bildernede p {
     margin: 4px 0;
+}
+
+.linje1{
+    padding-top: 50px;
+}
+
+.overlay-text {
+    position: absolute;
+  top: 39.6%;
+  left: 48.2%;
+  transform: translate(-50%, -50%); /* Perfectly centers the text */
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  text-shadow: 10px 6px 5px rgba(31, 31, 31, 0.7);
+}
+
+.collection {
+  padding-top: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.linje2 {
+    padding-top: 50px;
+}
+
+.linje3 {
+    padding-top: 50px;
 }
